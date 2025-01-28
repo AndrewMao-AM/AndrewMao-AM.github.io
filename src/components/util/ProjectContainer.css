@@ -1,0 +1,37 @@
+.project-card-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    padding: 16px;
+}
+
+
+
+.project-card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    background-image: url("../../assets/iphoneProjectStock.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: transform 2s ease-in-out;
+}
+
+.project-card:hover {
+    transform: scale(1.02); 
+}
+
+
+.card-title {
+    font-weight: 200;
+}
+
+.project-tile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+@media (max-width: 768px) {
+    .project-tile {
+        grid-template-columns: 1fr;
+    }
+}

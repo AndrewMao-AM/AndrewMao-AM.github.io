@@ -1,0 +1,22 @@
+.divider-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    gap: 2rem;  
+    margin: 1rem 0;
+  }
+  
+  .section-title {
+    margin: 0;
+    font-size: 48px; 
+    font-weight: 400;
+  }
+  
+  .line-divider {
+    flex: 1; 
+    height: 0; /* Ensure it's a line, not a block */
+    border: none; /* Remove default border */
+    border-top: 0.5px solid white; /* Define horizontal line */
+  }
+
+  
