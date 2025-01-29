@@ -7,7 +7,7 @@ const SocialLinks = () => {
       <SocialIcon
         className="s-icon"
         network="github"
-        url="https://github.com/Andrewuwu"
+        url="https://github.com/AndrewMao-AM"
         bgColor="#1C2025"
       />
       <SocialIcon
